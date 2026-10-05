@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Am Store And Print</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #1e293b;
+            color: #ffffff;
+            padding: 1.5rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            color: #94a3b8;
+            margin-top: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: white;
+            text-align: center;
+            padding: 4rem 1.5rem;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            line-height: 1.6;
+        }
+
+        .btn {
+            background-color: #f59e0b;
+            color: #ffffff;
+            padding: 0.8rem 1.8rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #d97706;
+        }
+
+        .services {
+            max-width: 1100px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #1e293b;
+            margin-bottom: 0.8rem;
+        }
+
+        .card p {
+            color: #64748b;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        footer {
+            margin-top: auto;
+            background-color: #0f172a;
+            color: #94a3b8;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Am Store And Print</h1>
+        <p>Your One-Stop Shop for Store Products & Custom Printing Solutions</p>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Am Store And Print!</h2>
+        <p>High-quality printing services and daily essential store products delivered with precision and care.</p>
+        <a href="#services" class="btn">Explore Services</a>
+    </section>
+
+    <section class="services" id="services">
+        <div class="card">
+            <h3>Custom Printing</h3>
+            <p>From business cards and banners to custom merchandise, we handle all your printing needs.</p>
+        </div>
+        <div class="card">
+            <h3>Store Essentials</h3>
+            <p>Browse our wide selection of quality items available right in-store for your convenience.</p>
+        </div>
+        <div class="card">
+            <h3>Fast Delivery</h3>
+            <p>Get your print projects and store orders completed quickly and delivered on time.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Am Store And Print. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
